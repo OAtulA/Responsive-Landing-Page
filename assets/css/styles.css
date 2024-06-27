@@ -631,16 +631,76 @@ img {
     left: -9rem;
   }
 
-  .case__data{
+  .case__data {
     padding: 0;
   }
 
-  .products__container{
+  .products__container {
     grid-template-columns: 142px;
     justify-content: center;
   }
 }
 
 /* For medium devices */
+
+@media screen and (min-width: 576px) {
+  .home__container {
+    /* so that text goes on the right half */
+    grid-template-columns: 0.8fr 1fr;
+  }
+
+  .home__data {
+    padding-top: 2rem;
+  }
+
+  /* Now we get the img on our left half */
+  .home__img {
+    top: -7rem;
+    left: 0;
+  }
+
+  .specs__img {
+    position: initial;
+  }
+
+  /* text left img right */
+  .specs__container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+
+  .case__img {
+    position: initial;
+  }
+
+  .case__data {
+    padding: 0;
+  }
+
+  .case__container {
+    grid-template-columns: max-content 250px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+  }
+
+  .discount__img {
+    position: initial;
+  }
+
+  .discount__container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+
+  .products__container {
+    grid-template-columns: repeat(3, 142px);
+    justify-content: center;
+  }
+}
+
+
 
 /* For large devices */
