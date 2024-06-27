@@ -408,6 +408,51 @@ img {
   right: -11rem;
 }
 /*=============== PRODUCTS ===============*/
+.product__line {
+  line-height: 4rem;
+}
+
+.products__container {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem 1.5rem;
+  padding-top: 3rem;
+}
+
+.products__card {
+  position: relative;
+  height: 9.9rem;
+  background-color: var(--container-color);
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  display: grid;
+  margin-top: 1rem;
+}
+
+.products__imgs {
+  width: 80px;
+  position: absolute;
+  inset: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: -3rem;
+}
+
+.products__content {
+  align-self: flex-end;
+}
+
+.products__title,
+.products__price {
+  font-size: var(--small-font-size);
+}
+
+.products__button {
+  position: relative;
+  float: right;
+  padding: 0.5rem;
+  top: -.5rem;
+  border-radius: 0.35rem;
+}
 
 /*=============== FOOTER ===============*/
 
