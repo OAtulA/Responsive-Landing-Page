@@ -815,6 +815,18 @@ img {
 
   .sponsor__img{
     width: 100px;
-    
+
+  }
+
+  .discount__img{
+    width: 350px;
+  }
+
+  .footer__container{
+    padding-top: 3rem;    
+  }
+
+  .footer__copy{
+    margin-top: 9rem;
   }
 }
