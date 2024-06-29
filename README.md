@@ -17,8 +17,9 @@ This experience would highly benefit me in the future for designing the landing 
 
 HTML, CSS and JS
 
-## Video Preview 🔥️
+## YouTube Video Preview 🔥️
 
-[Responsive landing page](https://youtu.be/GpYBa5glK0k)
+[![Video thumbnail](https://img.youtube.com/vi/GpYBa5glK0k/0.jpg)](https://www.youtube.com/watch?v=GpYBa5glK0k)
 
-## React version coming soon
+
+## React version coming soon ❤️‍🔥️
