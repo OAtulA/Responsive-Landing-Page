@@ -636,6 +636,7 @@ img {
   }
 
   .products__container {
+    /* to have just one column */
     grid-template-columns: 142px;
     justify-content: center;
   }
@@ -794,39 +795,37 @@ img {
 /* For large devices */
 
 @media screen and (min-width: 1024px) {
-  .container{
+  .container {
     margin-left: auto;
-    margin-right: auto ;
+    margin-right: auto;
   }
-  .home__img{
+  .home__img {
     width: 300px;
     top: -15rem;
   }
 
-  .home__title{
+  .home__title {
     top: -5rem;
     left: 3.5rem;
   }
 
-  .home__description{
+  .home__description {
     padding-right: 5rem;
-
   }
 
-  .sponsor__img{
+  .sponsor__img {
     width: 100px;
-
   }
 
-  .discount__img{
+  .discount__img {
     width: 350px;
   }
 
-  .footer__container{
-    padding-top: 3rem;    
+  .footer__container {
+    padding-top: 3rem;
   }
 
-  .footer__copy{
+  .footer__copy {
     margin-top: 9rem;
   }
 }
